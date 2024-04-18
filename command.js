@@ -1,15 +1,7 @@
 export const COMMAND = [
   {
-    command: "start",
-    description: "Запуск бота",
-  },
-  {
-    command: "newsession",
+    command: "new_game",
     description: "Начать новую сессию",
-  },
-  {
-    command: "endsession",
-    description: "Закончить сессию",
   },
   {
     command: "result",
