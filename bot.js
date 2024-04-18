@@ -1,7 +1,6 @@
 import TelegramBot from "node-telegram-bot-api";
 import { TOKEN } from "./config.js";
 import { COMMAND } from "./command.js";
-// up
 const bot = new TelegramBot(TOKEN, {
   polling: {
     interval: 300,
